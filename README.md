@@ -52,3 +52,10 @@ You can disable that by setting the `book_number_chapters` in `extra`:
 ```toml
 book_number_chapters = false
 ```
+### Chapter pages
+By default, the `book` theme will display the chapter pages in the left menu.
+You can disable that by setting the `book_chapter_pages` in `extra`:
+
+```toml
+book_chapter_pages = false
+```

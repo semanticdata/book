@@ -46,6 +46,7 @@
                                     {% if config.extra.book_number_chapters %}<strong>{{ chapter_num }}.</strong>{% endif %}
                                     {{ subsection.title }}
                                 </a>
+                                {% if config.extra.book_chapter_pages %}
                                 {% if subsection.pages %}
                                     <ul>
                                         {% for page in subsection.pages %}
@@ -57,6 +58,7 @@
                                             </li>
                                         {% endfor %}
                                     </ul>
+                                {% endif %}
                                 {% endif %}
                             </li>
                         {% endfor %}
